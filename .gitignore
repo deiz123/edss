@@ -1,0 +1,18 @@
+### IDEA Build:
+out
+
+### Mac OS
+.DS_Store
+
+### Skip IDEA Project Files except shared code style and inspections settings:
+*.iml
+**/.idea/*
+!**/.idea/codeStyleSettings.xml
+!**/.idea/codeInsightSettings.xml
+!**/.idea/inspectionProfiles/
+!**/.idea/codeStyles
+**/.idea/inspectionProfiles/*
+!**/.idea/inspectionProfiles/Project_Default.xml
+!**/.idea/misc.xml
+.git_annotate_cache
+modules/http-client.private.env.json
